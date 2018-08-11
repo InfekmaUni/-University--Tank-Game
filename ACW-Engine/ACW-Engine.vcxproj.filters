@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{5e487527-3877-48af-b23d-ad426c5d3c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Inherited">
+      <UniqueIdentifier>{c2816c80-ca93-4471-a662-71a332d9c346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{3e8cb564-baaf-4f24-bcd2-a55f3fd30e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{0ce9d32a-be04-41f3-b549-6144ba7edbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{0fcb1102-a638-48bb-a2d5-db8b7507d86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d8b11cd0-7172-462b-98f7-63bd04a54b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX">
+      <UniqueIdentifier>{fafd8a0a-92fe-453f-b3eb-ce9e2703ac59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CrossPlatform">
+      <UniqueIdentifier>{a8da44b5-50d1-4609-bb43-6242ab3b380e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threads">
+      <UniqueIdentifier>{ebbe6a60-0e26-4a5c-aeb6-9bbda7b75c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{c6d9c002-f357-4d40-9268-6afa1da6cb3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\Include">
+      <UniqueIdentifier>{37a17e2b-5440-4287-a79e-b0bd417381c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\lib">
+      <UniqueIdentifier>{f83b0e94-adfc-45b7-b863-ad8ae3fb0f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{20271488-ae84-4800-99e0-a9a0763d1a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inputs">
+      <UniqueIdentifier>{9c983654-637b-4b0c-a5b9-84804b2617d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseSystem.cpp">
+      <Filter>System\Inherited</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableSystem.cpp">
+      <Filter>System\Inherited</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateableSystem.cpp">
+      <Filter>System\Inherited</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer_DX.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="VIBO.cpp">
+      <Filter>CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="VIBO_DX.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationWindow.cpp">
+      <Filter>CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationWindow_DX.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_DX.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_DX.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ACWThread.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateThread.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderThread.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPressMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="ACWTweakBar.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ACWTimer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkThread.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMouse.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMoveMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="MousePressMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="GameKeyboard.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseSystem.h">
+      <Filter>System\Inherited</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableSystem.h">
+      <Filter>System\Inherited</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateableSystem.h">
+      <Filter>System\Inherited</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Vector4.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MathsHelper.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer_DX.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="VIBO.h">
+      <Filter>CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="VIBO_DX.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationWindow.h">
+      <Filter>CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationWindow_DX.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_DX.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_DX.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ACWThread.h">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateThread.h">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderThread.h">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AntTweakBar.h">
+      <Filter>Dependencies\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPressMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="ACWTweakBar.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ACWTimer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkThread.h">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMouse.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMoveMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="MousePressMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="GameKeyboard.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\AntTweakBar.lib">
+      <Filter>Dependencies\lib</Filter>
+    </Library>
+    <Library Include="..\lib\AntTweakBar64.lib">
+      <Filter>Dependencies\lib</Filter>
+    </Library>
+    <Library Include="..\lib\DXUT.lib">
+      <Filter>Dependencies\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

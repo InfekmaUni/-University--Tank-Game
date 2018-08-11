@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ACW-Game.cpp" />
+    <ClCompile Include="RenderedEntity.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPhysics.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneShader.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemRender.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="TankGame.cpp" />
+    <ClCompile Include="ComponentCamera.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentCollision.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentMesh.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentRender.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentTexture.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentTransform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentVelocity.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Objects\GameScene\Tanks</Filter>
+    </ClCompile>
+    <ClCompile Include="AITank.cpp">
+      <Filter>Objects\GameScene\Tanks</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTank.cpp">
+      <Filter>Objects\GameScene\Tanks</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>Objects\GameScene\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="TankKilledMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCamera.cpp">
+      <Filter>Objects\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Objects\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentScore.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSceneNetworking.cpp">
+      <Filter>Objects\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>Objects\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{c4a41110-cd95-4969-96ff-b7a9d5f48e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{0efc278a-feda-4a25-997d-b5f2a251cfca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{5ee1126a-d767-4312-b41f-f12478011e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{a4582369-4392-4186-8b34-126dacf8b4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{11a02937-0f13-4828-995f-c8ec237cd956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{53e3ffa0-808d-4fc3-add2-a59add265c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\GameScene">
+      <UniqueIdentifier>{90c2a544-ed34-4a1b-90fb-28b7fcf558c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\GameScene\Obstacles">
+      <UniqueIdentifier>{08ea0eab-27b1-47a3-a4eb-51928b59c336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\GameScene\Tanks">
+      <UniqueIdentifier>{cf47d5ad-474c-426d-99cf-61497d7f5522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\MainMenu">
+      <UniqueIdentifier>{8f888769-0061-47bb-9dbc-3dde6799b230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs">
+      <UniqueIdentifier>{0be1b7de-230c-4b55-8977-402e7caeb700}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Default_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Default_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Network.txt">
+      <Filter>Configs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RenderedEntity.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPhysics.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneShader.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemRender.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="TankGame.h" />
+    <ClInclude Include="ComponentVelocity.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentCamera.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentCollision.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentMesh.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentRender.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentTexture.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentTransform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Objects\GameScene\Tanks</Filter>
+    </ClInclude>
+    <ClInclude Include="AITank.h">
+      <Filter>Objects\GameScene\Tanks</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTank.h">
+      <Filter>Objects\GameScene\Tanks</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrier.h">
+      <Filter>Objects\GameScene\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="TankKilledMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCamera.h">
+      <Filter>Objects\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Objects\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentScore.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSceneNetworking.h">
+      <Filter>Objects\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>Objects\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="HighScore.txt">
+      <Filter>Configs</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -3,6 +3,8 @@
 
 Created and developed within a time peroid of 3-4months using Dx11, HLSL and visual C++.
 
+Assignment was to create a 2v2 team-based tank game with obstacles.
+
 # Features
 
 Dx11 - hlsl
